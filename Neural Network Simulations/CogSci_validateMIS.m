@@ -145,13 +145,6 @@ function [pathwayCapacities, maxCarryingCapacity, BK_MIS, A_bipartite, A_tasksId
         else
             % no samples available
             MSEdata(capIdx).cap = cap;
-            MSEdata(capIdx).goodMSEData = [];
-            
-            multiPerformance_mean(2, capIdx) = [];
-            multiPerformance_sem(2,capIdx) = [];
-
-            multiPerformance_mean(3, capIdx) = [];
-            multiPerformance_sem(3,capIdx) = [];
             
         end
                                                     
