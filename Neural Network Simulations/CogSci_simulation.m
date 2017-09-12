@@ -26,7 +26,8 @@ log_version = 1;
 replications = 100;                 % # replications per simulation
 
 % update network parameters
-NPathways = 6;                     % number of pathways (i.e. number of feature dimensions % output dimensions)
+NPathways = 6;                     % number of pathways (i.e. number of stimulus dimensions and output dimensions)
+NFeatures = 2; 			 % number of units per stimulus dimension and output dimension
 thresh = 0.0001;                  % mean-squared error stopping criterion
 PathwayOverlap = 2;
 corr_threshold = 0.8;      % threshold for detecting merged task representations in correlation matrix
