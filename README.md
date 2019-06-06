@@ -9,4 +9,4 @@ Graph-Theoretic Analysis/MultiUse_MultiTask_MinMax_range.m
 
 **Main source for neural network simulations:**
 
-CogSci-2016/Neural Network Simulations/CogSci_simulation.m
+Neural Network Simulations/CogSci_simulation.m
